@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Piedra Papel o Tijera</title>
+        <meta charset='utf-8'>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+        <link rel='stylesheet' href='Css/Style.css'>
+        <link rel='stylesheet' href='Css/font-awesome.min.css'>
+        <link rel='stylesheet' href='Css/normalize.css'>
+        <link rel='shorcut icon' type='image/jpg' href='Fabicon/Fabicon.jpg'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="banner">
+                    <div class="logo"></div>
+                    <div class="logotipo">
+                        <h1>Piedra Papel o Tijera</h1>
+                    </div>
+                </div>
+                <div class="links">
+                    <div class="link">
+                        <a href="#">Otras Apps</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main">
+                <div class="puntaje">
+                    <div class="placa" id="usuario-label">
+                        Usuario
+                        <span class="placa2">
+                            <i class="fa fa-user" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <div class="contador">
+                        <span id="puntaje_usuario">0</span>
+                        :
+                        <span id="puntaje_ia">0</span>
+                    </div>
+                    <div class="placa" id="ia-label">
+                        I.A.
+                        <span class="placa2">
+                            <i class="fa fa-laptop" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="resultado">
+                    <p>¿Quien ganara?</p>
+                </div>
+
+                <div class="opciones">
+                    <div class="piso1">
+                        <div class="opcion" id="piedra"><i class="fa fa-hand-rock-o" aria-hidden="true"></i></div>
+                    </div>
+                    <div class="piso2">
+                        <div class="opcion" id="papel"><i class="fa fa-hand-paper-o" aria-hidden="true"></i></div>
+                        <div class="opcion" id="tijeras"><i class="fa fa-hand-scissors-o" aria-hidden="true"></i></div>
+                    </div>
+                </div>
+
+                <div class="mensaje">
+                    <p id="mensaje_Accion">Haz tu jugada</p>
+                </div>
+            </div>
+
+            <div class="footer">
+                <h2>David Torres&nbsp;&nbsp;|&nbsp;&nbsp;Voltage Code&nbsp;&nbsp;|&nbsp;&nbsp;2019</h2>
+            </div>
+        </div>
+        <script src="Js/Main.js"></script>
+    </body>
+</html>
